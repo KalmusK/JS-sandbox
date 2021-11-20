@@ -11,6 +11,6 @@ function changeImage () {
 
     let randomImage = Math.floor(Math.random() * images.length);
     console.log(randomImage);
-    image.src = "images/pic1.jpeg";
-    image.style.backroundImage = images[randomImage];
+    image.src = "images/" + images[randomImage];
+    
 }
